@@ -35,8 +35,21 @@ class BST {
     return this;
   }
 
+  //Average: O(log(n)) Time | O(1) Space
+  // Worst: O(n) Time | O(1) Space
   contains(value) {
     // Write your code here.
+    let currentNode = this;
+    while (currentNode !=== null) {
+      if (value < currentNode.value) {
+        currentNode = currentNode.left;
+      } else if (value > currentNode.value) {
+        currentNode = currentNode.right;
+      } else {
+        return true;
+      }
+    }
+    return false;
   }
 
   remove(value) {

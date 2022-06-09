@@ -15,9 +15,3 @@ map.set(123, 'hello');
 console.log(map.get(123));
 
 const set = new Set();
-set.add('hello');
-set.add('world');
-console.log(set.has('hello'));
-console.log(set.size);
-console.log(set);
-console.log('')

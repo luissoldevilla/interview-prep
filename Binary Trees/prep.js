@@ -3,6 +3,7 @@
 const person = {
     name: 'Angel',
     course: 'Front-end',
+    age: 30,
 };
 
 console.log(person); 

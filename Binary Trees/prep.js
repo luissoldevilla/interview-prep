@@ -4,6 +4,7 @@ const person = {
     name: 'Angel',
     course: 'Front-end',
     age: 30,
+    semester: 'first',
 };
 
 console.log(person); 

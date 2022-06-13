@@ -5,6 +5,7 @@ const person = {
     course: 'Front-end',
     age: 30,
     semester: 'first',
+    personality: 'agressive',
 };
 
 console.log(person); 

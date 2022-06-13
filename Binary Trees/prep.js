@@ -6,6 +6,7 @@ const person = {
     age: 30,
     semester: 'first',
     personality: 'agressive',
+    music: 'Future'
 };
 
 console.log(person); 

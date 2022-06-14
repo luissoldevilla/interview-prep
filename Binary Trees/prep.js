@@ -9,6 +9,12 @@ const person = {
     music: 'Future'
 };
 
+const arr = [1, 3, 4];
+console.log(arr);
+
+const arra = new Array();
+console.log(arra);
+
 console.log(person); 
 console.log(typeof JSON.stringify(person));
 // console.log(typeof JSON.stringify(person));

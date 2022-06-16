@@ -33,6 +33,11 @@ function sockMerchant(n, ar) {
             pairs += 1;
         }
     }
+    console.log('There is ' + pairs + ' pairs');
     return pairs;
-    console.log(pairs);
 }
+
+sockMerchant(10, [10, 20, 20, 10, 10, 30, 50, 10, 20]);
+sockMerchant(8, [10, 20, 20, 10, 10, 30, 50]);
+sockMerchant(12, [10, 20, 20, 10, 10, 30, 50, 50, 50, 60, 60]);
+

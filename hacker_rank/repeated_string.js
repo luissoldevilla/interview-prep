@@ -25,8 +25,8 @@
 //     // We divide n by the lenght of s
 //     let max = Math.floor(n / s.length);
 //     console.log(max);
-    
-//     // 
+
+//     //
 //     let totalAs = occurances * max;
 //     console.log(totalAs);
 
@@ -40,15 +40,15 @@ function repeatedString(s, n) {
     let fullRepeats = Math.floor(n / s.length);
     let remainder = n % s.length;
     let countA = 0;
-  
+
     for (let i = 0; i < s.length; i++) {
       if (s.charAt(i) === 'a') {
         countA++;
       }
     }
-  
+
     countA = countA * fullRepeats;
-  
+
     if (remainder) {
       for (let i = 0; i < remainder; i++) {
         if (s.charAt(i) === 'a') {
@@ -62,4 +62,3 @@ function repeatedString(s, n) {
 
 repeatedString('aba', 10);
 // repeatedString('a', 1000000000000);
-

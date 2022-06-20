@@ -61,4 +61,10 @@ function repeatedString(s, n) {
   }
 
 repeatedString('aba', 10);
+<<<<<<< HEAD
 // repeatedString('a', 1000000000000);
+=======
+repeatedString('a', 1000000000000);
+repeatedString('abaaba', 1000000000000);
+
+>>>>>>> Repeated String Hacker Rank

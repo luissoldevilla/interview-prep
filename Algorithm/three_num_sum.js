@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-// This problem comes from AlgoExpert
-
->>>>>>> master
 function threeNumberSum(array, targetSum) {
     // Write your code here.
   

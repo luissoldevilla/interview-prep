@@ -24,6 +24,5 @@ function countingValleys(steps, path) {
     return result
 }
 
-
 countingValleys(8, 'UDDDUDUU');
-// countingValleys(12, 'UDDDUDUUDDUU');
+countingValleys(12, 'UDDDUDUUDDUU');

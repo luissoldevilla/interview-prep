@@ -1,9 +1,13 @@
-
+// Hourglass problem
 
 function hourglassSum(arr) {
+
     let max = -63;
+
     for (let i = 0; i < 4; i++) {
+
         for (let j = 0; j < 4; j++) {
+
             let sum = 0
             sum = (
                    arr[i][j] + 
@@ -16,7 +20,7 @@ function hourglassSum(arr) {
                    );
 
             max = max < sum ? sum : max
-            // console.log(max);
+            console.log(max);
         }
     }
     console.log(max);

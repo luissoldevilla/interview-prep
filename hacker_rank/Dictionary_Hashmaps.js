@@ -17,6 +17,8 @@ function checkMagazine(magazine, note) {
     }
     // console.log(magazine);
     // console.log(note);
+    // Still figuring out this problem
+    
 
 }
 

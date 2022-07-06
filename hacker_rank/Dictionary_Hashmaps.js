@@ -19,6 +19,7 @@ function checkMagazine(magazine, note) {
     // console.log(note);
     // Still figuring out this problem
     
+    // hashmaps understading
 
 }
 

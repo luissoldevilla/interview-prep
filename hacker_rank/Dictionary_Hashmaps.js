@@ -31,7 +31,7 @@ function checkMagazine(magazine, note) {
     for (let i = 0; i < magazine.length; i++){
         let word = magazine[i];
         magDict[word] = magDict[word] ? magDict[word] + 1 : 1;
-        console.log(magDict);
+        // console.log(magDict);
     }
 
     //Loop through the note and compare with magazine object

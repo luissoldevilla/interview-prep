@@ -30,8 +30,8 @@ function checkMagazine(magazine, note) {
     //Populate magDict with words from the magWordArr
     for (let i = 0; i < magazine.length; i++){
         let word = magazine[i];
+        console.log(magDict); //this log the map into the console
         magDict[word] = magDict[word] ? magDict[word] + 1 : 1;
-        // console.log(magDict);
     }
 
     //Loop through the note and compare with magazine object

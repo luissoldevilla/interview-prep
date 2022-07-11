@@ -1,3 +1,5 @@
+// Recap for Dictionary hashmaps
+
 // function checkMagazine(magazine, note) {
 //     // Write your code here
 //     // const words = {};
@@ -55,6 +57,4 @@ function checkMagazine(magazine, note) {
 }
 
 checkMagazine('give me one grand today night', 'give one grand today');
-checkMagazine('give me one grand today night', 'give one grand today');
-checkMagazine('two times three is not four', 'two times two is four');
 checkMagazine('two times three is not four', 'two times two is four');

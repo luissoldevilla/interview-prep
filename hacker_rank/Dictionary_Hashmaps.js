@@ -1,4 +1,5 @@
 // Recap for Dictionary hashmaps
+// Problem 
 
 // function checkMagazine(magazine, note) {
 //     // Write your code here

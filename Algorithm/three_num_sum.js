@@ -1,6 +1,7 @@
 function threeNumberSum(array, targetSum) {
     // Write your code here.
   
+    // we iterate through one loop first 
     for (let i = 0; i < array.length - 1; i++) {
       const firstNum = array[i];
       for (let j = i + 1; j < array.length - 1; j++) {

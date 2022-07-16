@@ -7,6 +7,7 @@ function countingValleys(steps, path) {
     let result = 0
 
     // we iterate through the steps
+    // we iterate through the steps with a for loop
     for(let step = 0; step < steps; step++){
         // console.log(step);
         // console.log(strArr[step]);

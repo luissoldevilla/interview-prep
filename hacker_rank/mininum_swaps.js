@@ -53,4 +53,3 @@ function minimumSwaps2(arr) {
 }
 minimumSwaps2([4,3,1,2]);
 minimumSwaps2([1,3,5,2,4,6,7]);
-minimumSwaps2([1,3,5,2,4,6,7]);

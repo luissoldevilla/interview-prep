@@ -61,7 +61,7 @@ function repeatedString(s, n) {
 //   }
 
 repeatedString('aba', 10);
-// repeatedString('a', 1000000000000);
-// repeatedString('a', 1000000000000);
-// repeatedString('abaaba', 1000000000000);
+repeatedString('a', 1000000000000);
+repeatedString('a', 1000000000000);
+repeatedString('abaaba', 1000000000000);
 

@@ -1,7 +1,7 @@
 function aVeryBigSum(ar) {
     // Write your code here
 
-    // we assigned a variable to keep track of counter
+    // we assigned a variable to keep track of counter named 'total'
     let total = 0; 
     // we make a for that go through the array
     for (let i = 0; i < ar.length; i++) {

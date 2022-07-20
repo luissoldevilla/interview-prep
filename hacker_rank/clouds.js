@@ -54,6 +54,6 @@ function jumpingOnClouds2(c) {
 }
 
 jumpingOnClouds([0, 0, 1, 0, 0, 1, 0]);
-jumpingOnClouds([0, 0, 1, 0, 0, 1, 0, 0]);
-jumpingOnClouds([0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1]);
+// jumpingOnClouds([0, 0, 1, 0, 0, 1, 0, 0]);
+// jumpingOnClouds([0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1]);
 

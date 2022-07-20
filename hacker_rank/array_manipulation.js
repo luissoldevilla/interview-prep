@@ -9,10 +9,10 @@ function arrayManipulation(n, queries) {
         for (let j = 0; j < queries[i].length; j++) {
             let indice = queries[i][j];
             let indice2 = queries[i][0];
-            // let indice3 = queries[i][j+2];
-            // console.log(indice);
-            // console.log(queries[i]);
-            // console.log(indice2);
+            let indice3 = queries[i][j+2];
+            console.log(indice);
+            console.log(queries[i]);
+            console.log(indice2);
         }
     }
 

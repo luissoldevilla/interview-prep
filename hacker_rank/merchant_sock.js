@@ -61,6 +61,7 @@ sockMerchant2(10, [10, 20, 20, 10, 10, 30, 50, 10, 20]);
 sockMerchant2(8, [10, 20, 20, 10, 10, 30, 50]);
 sockMerchant2(12, [10, 20, 20, 10, 10, 30, 50, 50, 50, 60, 60]);
 
+// second solution 
 function sockMerchant3(n, ar) {
     let sockMap = {}
     let result = 0
@@ -76,9 +77,6 @@ function sockMerchant3(n, ar) {
     return result
 }
 
-sockMerchant3(10, [10, 20, 20, 10, 10, 30, 50, 10, 20]);
-sockMerchant3(8, [10, 20, 20, 10, 10, 30, 50]);
-sockMerchant3(12, [10, 20, 20, 10, 10, 30, 50, 50, 50, 60, 60]);
 sockMerchant3(10, [10, 20, 20, 10, 10, 30, 50, 10, 20]);
 sockMerchant3(8, [10, 20, 20, 10, 10, 30, 50]);
 sockMerchant3(12, [10, 20, 20, 10, 10, 30, 50, 50, 50, 60, 60]);

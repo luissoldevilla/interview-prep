@@ -62,6 +62,7 @@ sockMerchant2(8, [10, 20, 20, 10, 10, 30, 50]);
 sockMerchant2(12, [10, 20, 20, 10, 10, 30, 50, 50, 50, 60, 60]);
 
 // second solution 
+// different layout of hashmapping
 function sockMerchant3(n, ar) {
     let sockMap = {}
     let result = 0

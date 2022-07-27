@@ -28,6 +28,7 @@ function findClosestValueInBst(tree, target) {
   }
   
   // This is the class of the input tree. Do not edit.
+  // Class BST starts here 
   class BST {
     constructor(value) {
       this.value = value;

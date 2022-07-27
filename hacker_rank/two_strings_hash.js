@@ -13,11 +13,11 @@ function twoStrings(s1, s2) {
         const substring2 = s2[j];
         if (mainSubstring[substring2]) {
             console.log('YES');
-            return true;
+            return 'yes';
         }
     }
     console.log('NO')
-    return false;
+    return 'no';
 
 }
 

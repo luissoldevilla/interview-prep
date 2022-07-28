@@ -24,3 +24,4 @@ function twoStrings(s1, s2) {
 twoStrings('hello', 'world');
 twoStrings('and', 'art');
 twoStrings('and', 'ert');
+twoStrings('d', 't');

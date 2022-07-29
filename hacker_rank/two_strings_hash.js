@@ -1,6 +1,7 @@
 function twoStrings(s1, s2) {
     // Write your code here
-
+    
+    // first we declare the our hashmap
     let mainSubstring = {};
 
     for (let i = 0; i < s1.length; i++) {

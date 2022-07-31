@@ -8,6 +8,7 @@ function twoStrings(s1, s2) {
     for (let i = 0; i < s1.length; i++) {
         // we declare our i into a variable
         const substring = s1[i];
+        // we place our variable into our hash table
         mainSubstring[substring] = true // ? mainSubstring[substring] + 1 : 1;
         // console.log(mainSubstring);
         // console.log(substring); 

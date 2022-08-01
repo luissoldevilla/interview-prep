@@ -16,6 +16,7 @@ function twoStrings(s1, s2) {
     // we do a second that goes through s2
     for (let j = 0; j < s2.length; j++) {
         const substring2 = s2[j];
+        // we compare the values through our hashmap
         if (mainSubstring[substring2]) {
             console.log('YES');
             return 'yes';

@@ -57,3 +57,4 @@ function countTriplets(arr, r) {
 }
 
 countTriplets([1, 4, 16, 64], 4);
+countTriplets([1, 4, 16, 64], 4);

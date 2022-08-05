@@ -6,18 +6,20 @@ function countTriplets(arr, r) {
     // countera aqui
     let count = 0
     
-    // error  handeling if array is less than 3  
+    // error  handeling if array is less than 3 
+    // if so return 0
     if (arr.length < 3) return 0
 
     // we make a loop that starts from the end 
     for (let i = arr.length - 1; i >=0; i--) {
-    // console.log(arr[i]);
+
     // we declare 3 variable for each indices
       let t1 = arr[i]
+    //   console.log(t1)
       let t2 = t1 * r
     //   console.log(t2)
       let t3 = t2 * r
-    //   console.log(t3)
+      console.log(t3)
 
     // case 1: current element is the first digit of potential triplet 
     // i.e. potential triplet = [t1, t1*r, t1*r*r]
@@ -56,5 +58,4 @@ function countTriplets(arr, r) {
 
 }
 
-countTriplets([1, 4, 16, 64], 4);
 countTriplets([1, 4, 16, 64], 4);

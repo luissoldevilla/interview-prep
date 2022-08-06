@@ -38,9 +38,14 @@ function countTriplets(arr, r) {
     // otherwise, add key of current element to hGram2 and set value to
     // the value associated to the key of hGram[t2]
     // unless it's null, then to 0.
+
+    // en esta caso buscamos el segundo numero
+    // y lolo comparanos en el hashmap
+
       hGram2[t2] ?
         hGram2[t2] += hGram[t2] || 0 :
           hGram2[t2] = hGram[t2] || 0
+
     // case 3: current element is the third digit of potential triplet 
     // potential triplet = [t1/r/r, t1/r, t1]
     // which means the first and second digits of potential triplet have
@@ -48,6 +53,7 @@ function countTriplets(arr, r) {
     // if hGram already includes key of current element 
     // increment value associated to said key by 1 
     // otherwise, add key of current element to hGram and set value to 1
+
       hGram[t1] ? hGram[t1]++ : hGram[t1] = 1
     //   console.log(hGram2[t2]);
     //   console.log(hGram[t2]);

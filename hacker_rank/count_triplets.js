@@ -45,7 +45,7 @@ function countTriplets(arr, r) {
       hGram2[t2] ?
         hGram2[t2] += hGram[t2] || 0 :
           hGram2[t2] = hGram[t2] || 0
-
+    // lo comparamos y con el segundo hashmap
     // case 3: current element is the third digit of potential triplet 
     // potential triplet = [t1/r/r, t1/r, t1]
     // which means the first and second digits of potential triplet have

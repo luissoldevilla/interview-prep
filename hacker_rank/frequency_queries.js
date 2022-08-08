@@ -1,0 +1,6 @@
+function freqQuery(queries) {
+
+
+}
+
+freqQuery();

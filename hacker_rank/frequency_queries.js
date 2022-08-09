@@ -10,13 +10,25 @@ function freqQuery(queries) {
     let checkFreq = false;
   
     for (let i = 0; i < queries.length; i++) {
+      // we assign a varible to queries[i]
       let query = queries[i];
-  
+      
+    //   console.log(query[0]); => x
+    //   console.log(query[1]);
+
+
+    // checks for the x 
       if (query[0] === 1) {
-        ops.push(query[1]);
-      } else if (query[0] === 2) {
-        let index = ops.indexOf(query[1]);
+        // we push teh value of query[1] to ops 
+          ops.push(query[1]);
+          // we check for y 
+        } else if (query[0] === 2) {
+            // we declare a vatiable for the index of ops at query[1]
+            let index = ops.indexOf(query[1]);
+            // console.log(index);
+        // we check if the index of our variable is ther by saying if its more then -1
         if (index > -1) {
+        // if so we delete it using splice
           ops.splice(index, 1);
         }
       } else {
@@ -54,10 +66,10 @@ function freqQuery(queries) {
         obj[arr[i]] = 1;
       }
     }
-    console.log(obj);
+    // console.log(obj);
     return obj;
 
 }
 
-console.log(freqQuery([(1,1),(2,2),(3,2),(1,1),(1,1),(2,1),(3,2)]));
-console.log(charToObj([(1,1),(2,2),(3,2),(1,1),(1,1),(2,1),(3,2)]));
+freqQuery([[1,1],[2,2],[3,2],[1,1],[1,1],[2,1],[3,2]]);
+// charToObj([(1,1),(2,2),(3,2),(1,1),(1,1),(2,1),(3,2)]);

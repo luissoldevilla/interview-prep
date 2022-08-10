@@ -14,7 +14,7 @@ function freqQuery(queries) {
       let query = queries[i];
       
     //   console.log(query[0]); => x
-    //   console.log(query[1]);
+    //   console.log(query[1]); => y
 
 
     // checks for the x 
@@ -31,6 +31,7 @@ function freqQuery(queries) {
         // if so we delete it using splice
           ops.splice(index, 1);
         }
+        console.log(ops);
       } else {
         let freq = query[1];
         if (ops.length === 0) {
@@ -53,7 +54,7 @@ function freqQuery(queries) {
         }
       }
     }
-    // console.log(output);
+    console.log(output);
     return output;
   }
   

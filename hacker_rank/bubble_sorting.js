@@ -11,8 +11,8 @@ function countSwaps(a) {
                 counter++;
             }
         }
-        // console.log(a);
-        // console.log(counter);
+        console.log(a);
+        console.log(counter);
     }
     let  answer = `Array is sorted in ${counter} swaps.
 First Element: ${a[0]} 

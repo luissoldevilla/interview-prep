@@ -1,11 +1,13 @@
 from functools import cmp_to_key
 class Player:
     def __init__(self, name, score):
-        
+        # name is string
+        # score is integer
         self.name = name
         self.score = score
 
     def __repr__(self):
+        # we speacifically we define them
         self.name = ""
         self.score = 0
 

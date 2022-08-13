@@ -1,6 +1,7 @@
 from functools import cmp_to_key
 class Player:
     def __init__(self, name, score):
+        # we intiliaze by assigning values
         # name is string
         # score is integer
         self.name = name
@@ -12,11 +13,14 @@ class Player:
         self.score = 0
 
     def comparator(a, b):
+        # if we have the same score
         if a.score == b.score:
+            # sorted by ascending order
             if a.name > b.name:
                 return 1
             else:
                 return -1
+        # sorted descending order
         if a.score > b.score:
             return -1
         else:

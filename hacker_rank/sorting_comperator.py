@@ -1,3 +1,5 @@
+# we are doign this problem in python because its not in js on hacker rank
+
 from functools import cmp_to_key
 class Player:
     def __init__(self, name, score):

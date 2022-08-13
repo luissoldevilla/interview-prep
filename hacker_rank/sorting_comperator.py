@@ -1,4 +1,6 @@
 # we are doign this problem in python because its not in js on hacker rank
+# Resources:
+# https://docs.python.org/3/
 
 from functools import cmp_to_key
 class Player:

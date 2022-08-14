@@ -3,6 +3,8 @@
 # https://docs.python.org/3/
 
 from functools import cmp_to_key
+
+# we declare our first class 'Player'
 class Player:
     def __init__(self, name, score):
         # we intiliaze by assigning values

@@ -34,6 +34,8 @@ class Player:
         else:
             return 1
 
+# Hacker backup code
+
 n = int(input())
 data = []
 for i in range(n):

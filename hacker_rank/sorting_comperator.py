@@ -34,7 +34,8 @@ class Player:
         else:
             return 1
 
-# Hacker backup code
+# Hacker rank backup code
+# Testing part on hackerrank
 
 n = int(input())
 data = []

@@ -2,6 +2,8 @@
 # Resources:
 # https://docs.python.org/3/
 
+# we import a library
+
 from functools import cmp_to_key
 
 # we declare our first class 'Player'

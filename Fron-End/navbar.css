@@ -29,6 +29,10 @@ nav {
   li:not(:last-of-type) {
     border-right: 2px solid white;
   }
+  l
+  i:not(:last-of-type) {
+    border-right: 2px solid white;
+  }
   
   li:hover {
     background-color: #b90e4d;

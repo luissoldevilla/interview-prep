@@ -19,6 +19,12 @@ nav {
     list-style-type: none;
     cursor: pointer;
   }
+
+  li {
+    padding: 1em 1.5em;
+    list-style-type: none;
+    cursor: pointer;
+  }
   
   li:not(:last-of-type) {
     border-right: 2px solid white;

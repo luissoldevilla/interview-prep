@@ -14,6 +14,8 @@ function activityNotifications(debits, days) {
 
     //     }
     // }
+
+    // created new object 
     const countArr = new Array(201).fill(0)
     let notices = 0
     for (let i = 0; i < days; i++) {

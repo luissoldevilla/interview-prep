@@ -34,6 +34,9 @@ function activityNotifications(debits, days) {
 
 }
 
+// implemented a secondary function
+// to calculate the median
+// it gets called on ur main functions
 function getMedianx2(countArr, days) {
     let sum = 0
     for (let i = 0; i < countArr.length; i++) {

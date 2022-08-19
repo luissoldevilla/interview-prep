@@ -16,6 +16,7 @@ function activityNotifications(debits, days) {
     // }
 
     // created new object 
+    // we populated until 201 because of the constrains
     const countArr = new Array(201).fill(0)
     // console.log(countArr);
     let notices = 0

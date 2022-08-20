@@ -19,6 +19,7 @@ function activityNotifications(debits, days) {
     // we populated until 201 because of the constrains
     const countArr = new Array(201).fill(0)
     // console.log(countArr);
+    // added a counter
     let notices = 0
 
     // we load our object countArr   

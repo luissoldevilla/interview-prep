@@ -48,7 +48,8 @@ function getMedianx2(countArr, days) {
     }
 }
 
-// getMedianx2([2, 3, 4, 2, 3, 6, 8, 4, 5], 5);
+//  test on secondary function
+getMedianx2([2, 3, 4, 2, 3, 6, 8, 4, 5], 5);
 
 activityNotifications([2, 3, 4, 2, 3, 6, 8, 4, 5], 5);
 // second test: 

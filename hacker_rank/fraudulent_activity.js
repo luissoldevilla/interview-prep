@@ -1,20 +1,6 @@
 function activityNotifications(debits, days) {
     // Write your code here
-    // expenditure.sort((a, b) => a - b);
-
-    // console.log(expenditure);
-    // let notifications = 0;
-    // let sub = [];
-
-    // for (let i = d; i < expenditure.length; i++) {  
-    //     let gastoActual = expenditure[i];
-    //     // console.log(gastoActual);
-    //     for (let j = 0; j < expenditure.length; j++) {
-    //         console.log(expenditure[j])
-
-    //     }
-    // }
-
+//   this problem we can come back to in the future
     // created new object 
     // we populated until 201 because of the constrains
     const countArr = new Array(201).fill(0)

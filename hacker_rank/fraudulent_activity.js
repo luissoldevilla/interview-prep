@@ -42,7 +42,9 @@ function getMedianx2(countArr, days) {
     //   console.log(sum);
     //   console.log(countArr[i]);
     //  designates eithe odd or even:
+    // odd:
       if (sum * 2 === days) return (i * 2 + 1)
+    //   even:
       if (sum * 2 > days) return (i * 2)
     //   console.log(i);
     }

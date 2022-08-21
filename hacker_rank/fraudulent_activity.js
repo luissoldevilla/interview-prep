@@ -38,6 +38,7 @@ function getMedianx2(countArr, days) {
     let sum = 0
     // for loop goes through the array
     for (let i = 0; i < countArr.length; i++) {
+    // sum add to itself plus the current element on countArr 
       sum += countArr[i]
     //   console.log(sum);
     //   console.log(countArr[i]);

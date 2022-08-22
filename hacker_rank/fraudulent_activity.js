@@ -21,6 +21,7 @@ function activityNotifications(debits, days) {
         // this will be our main logic
         //  consists of two if statements
         if (debits[i] >= medianx2) notices++
+        // this if tests throguhg a loop
         if (i === debits.length - 1) break
         countArr[debits[i - days]]--
         countArr[debits[i]]++

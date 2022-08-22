@@ -19,6 +19,7 @@ function activityNotifications(debits, days) {
         const medianx2 = getMedianx2(countArr, days)
 
         // this will be our main logic
+        //  consists of two if statements
         if (debits[i] >= medianx2) notices++
         if (i === debits.length - 1) break
         countArr[debits[i - days]]--

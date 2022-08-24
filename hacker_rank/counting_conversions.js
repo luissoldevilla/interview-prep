@@ -1,5 +1,7 @@
+// Counting Conversions
+
 function countInversions(arr) {
-    console.log(sortAndCount(arr));
+    // console.log(sortAndCount(arr));
     return sortAndCount(arr);
 }
 
@@ -8,15 +10,23 @@ function sortAndCount(arr) {
         return 0;
     }
 
+    // mid is median 
     let mid = Math.floor(arr.length / 2);
+    console.log(mid);
+    //
     let left = arr.slice(0, mid);
+    //
     let right = arr.slice(mid);
 
     return sortAndCount(left) + sortAndCount(right) + mergeSortAndCount(arr, left, right);
 }
 
 function mergeSortAndCount(arr, left, right) {
-    let i = 0, leftIndex = 0, rightIndex = 0, inversions = 0;
+
+    let i = 0;
+    let leftIndex = 0; 
+    let rightIndex = 0; 
+    let inversions = 0;
 
     while (leftIndex < left.length && rightIndex < right.length) {
         if (left[leftIndex] <= right[rightIndex]) {
@@ -43,7 +53,7 @@ function mergeSortAndCount(arr, left, right) {
         i++;
     }
 
-    // console.log(inversions)
+    console.log(inversions)
     return inversions;
 }
 

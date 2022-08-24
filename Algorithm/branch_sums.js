@@ -11,6 +11,7 @@ class BinaryTree {
     // Write your code here.
     const sums = [];
     calculateBranchSums(root, 0, sums);
+    console.log(sums);
     return sums;
   }
   

@@ -1,5 +1,6 @@
 function makeAnagram(a, b) {
     // Write your code here
+
     // declare a hashmap and two counter 
     let map = {}, aCount = 0, bCount = 0;
 
@@ -25,8 +26,10 @@ function makeAnagram(a, b) {
             // console.log(bCount);
         }
     }
-    console.log((a.length - aCount) + bCount);
-    return ((a.length - aCount) + bCount);
+    
+    let deletions = (a.length - aCount) + bCount;
+    console.log(deletions);
+    return deletions;
 }
 
-makeAnagram('cde', 'abc')
+makeAnagram('cde', 'abc');

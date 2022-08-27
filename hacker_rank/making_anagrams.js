@@ -26,10 +26,11 @@ function makeAnagram(a, b) {
             // console.log(bCount);
         }
     }
-    
+
     let deletions = (a.length - aCount) + bCount;
     console.log(deletions);
     return deletions;
 }
 
 makeAnagram('cde', 'abc');
+makeAnagram('edc', 'cba');

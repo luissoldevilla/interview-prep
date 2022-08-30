@@ -9,6 +9,8 @@ const person = {
     music: 'Future'
 };
 
+// objects recap on this file
+
 const arr = [1, 3, 4];
 console.log(arr);
 

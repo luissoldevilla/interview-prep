@@ -20,6 +20,7 @@ function tournamentWinner(competitions, results) {
       currentBestTeam = winningTeam;
     }
   }
+  console.log(currentBestTeam);
   return currentBestTeam;
 }
 

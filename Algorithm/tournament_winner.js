@@ -24,6 +24,7 @@ function tournamentWinner(competitions, results) {
   return currentBestTeam;
 }
 
+// Calling main function
 function updatedScores(team, points, scores) {
   if (!(team in scores)) scores[team] = 0;
 

@@ -1,5 +1,13 @@
 function nonConstructibleChange(coins) {
-    // Write your code here.
+  // Write your code here.
+
+  // O(nlogn) Time | O(1) Space - Where n is the number of coins
+  
+  // Question to ask the interviwere:
+  //  Able to sort in Place or not?
+  // if yes it will be O(1) Time
+  // if noy it will be  O(n) Time
+  
     
     coins.sort((a, b) => a - b);
   

@@ -21,4 +21,5 @@ function nonConstructibleChange(coins) {
     console.log(currentChangeCreated + 1);
     return currentChangeCreated + 1;
   }
-  
+
+  nonConstructibleChange([5,7,1,1,2,3,22]);

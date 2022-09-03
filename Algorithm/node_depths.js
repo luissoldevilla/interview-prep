@@ -9,6 +9,7 @@ function nodeDepths(root) {
       stack.push({node: node.left, depth:depth + 1});
       stack.push({node: node.right, depth:depth + 1});
     }
+    console.log(suma)
     return suma
   }
   

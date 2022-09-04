@@ -3,7 +3,7 @@ function nodeDepths(root) {
     
     // We made counter
     let suma = 0;
-    
+
     const stack = [{node: root, depth: 0}];
     while (stack.length > 0) {
       const {node, depth} = stack.pop();
@@ -24,3 +24,4 @@ function nodeDepths(root) {
       this.right = null;
     }
   }
+console.log(BinaryTree)

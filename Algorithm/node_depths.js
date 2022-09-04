@@ -4,6 +4,8 @@ function nodeDepths(root) {
     // We made counter
     let suma = 0;
 
+    // we made an hash with keys 
+    
     const stack = [{node: root, depth: 0}];
     while (stack.length > 0) {
       const {node, depth} = stack.pop();

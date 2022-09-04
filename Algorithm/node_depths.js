@@ -1,6 +1,9 @@
 function nodeDepths(root) {
     // Write your code here.
+    
+    // We made counter
     let suma = 0;
+    
     const stack = [{node: root, depth: 0}];
     while (stack.length > 0) {
       const {node, depth} = stack.pop();

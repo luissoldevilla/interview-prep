@@ -1,7 +1,7 @@
 function minimumWaitingTime(queries) {
     // Write your code here.
     let counter = 0;
-
+    // first we sort the array 
     queries.sort((a, b) => a - b);
     
     // console.log(queries);

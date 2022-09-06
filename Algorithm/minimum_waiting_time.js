@@ -4,7 +4,7 @@ function minimumWaitingTime(queries) {
 
     queries.sort((a, b) => a - b);
     
-    console.log(queries);
+    // console.log(queries);
     let totaWaitingTime = 0;
 
 

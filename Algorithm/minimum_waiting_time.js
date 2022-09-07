@@ -7,6 +7,8 @@ function minimumWaitingTime(queries) {
     // console.log(queries);
     let totaWaitingTime = 0;
 
+    // we iterate throught the array 
+
     for (let idx = 0; idx < queries.length; idx++) {
       const duration = queries[idx];
       const queriesLeft = queries.length - (idx + 1);

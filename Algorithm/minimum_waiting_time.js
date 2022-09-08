@@ -17,8 +17,7 @@ function minimumWaitingTime(queries) {
       // we compare the total waiting time here
       totaWaitingTime += duration * queriesLeft;
     }
-
-
-    return 0;
+    // here we return totaWaitingTime
+    return totaWaitingTime;
   }
 minimumWaitingTime([3,2,1,2,6]);

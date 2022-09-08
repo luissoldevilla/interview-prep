@@ -12,6 +12,7 @@ function minimumWaitingTime(queries) {
     for (let idx = 0; idx < queries.length; idx++) {
       // we make a index as variable
       const duration = queries[idx];
+      // we make a index starting from the left
       const queriesLeft = queries.length - (idx + 1);
       totaWaitingTime += duration * queriesLeft;
     }

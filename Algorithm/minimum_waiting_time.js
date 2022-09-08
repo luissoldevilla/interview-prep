@@ -14,6 +14,7 @@ function minimumWaitingTime(queries) {
       const duration = queries[idx];
       // we make a index starting from the left
       const queriesLeft = queries.length - (idx + 1);
+      // we compare the total waiting time here
       totaWaitingTime += duration * queriesLeft;
     }
 

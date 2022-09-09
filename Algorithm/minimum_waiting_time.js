@@ -18,6 +18,9 @@ function minimumWaitingTime(queries) {
       totaWaitingTime += duration * queriesLeft;
     }
     // here we return totaWaitingTime
+    console.log(totaWaitingTime);
     return totaWaitingTime;
   }
+  
 minimumWaitingTime([3,2,1,2,6]);
+// minimumWaitingTime([3,2,1,2,6]);

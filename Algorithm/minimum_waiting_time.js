@@ -24,3 +24,4 @@ function minimumWaitingTime(queries) {
   
 minimumWaitingTime([3,2,1,2,6]);
 minimumWaitingTime([4,3,1,2,6]);
+minimumWaitingTime([0]);

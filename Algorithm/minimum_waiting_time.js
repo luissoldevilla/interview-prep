@@ -8,10 +8,10 @@ function minimumWaitingTime(queries) {
     let totaWaitingTime = 0;
 
     // we iterate throught the array 
-
     for (let idx = 0; idx < queries.length; idx++) {
       // we make a index as variable
       const duration = queries[idx];
+      console.log(duration);
       // we make a index starting from the left
       const queriesLeft = queries.length - (idx + 1);
       // we compare the total waiting time here

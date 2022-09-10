@@ -16,6 +16,7 @@ function minimumWaitingTime(queries) {
       const queriesLeft = queries.length - (idx + 1);
       console.log(queriesLeft);
       // we compare the total waiting time here
+      // totaWaitingTime = totalWaitingTime + duration * queriesLeft;
       totaWaitingTime += duration * queriesLeft;
     }
     // here we return totaWaitingTime

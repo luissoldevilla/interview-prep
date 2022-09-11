@@ -5,6 +5,9 @@ function classPhotos(redShirtHeights, blueShirtHeights) {
     console.log(redShirtHeights);
     blueShirtHeights.sort((a,b) => b - a);
     console.log(blueShirtHeights);
+
+    const shirtColorInFirstRow = redShirtHeights[0] < blueShirtHeights[0] ? 'RED' : 'BLUE';
+
     return false;
 }
 

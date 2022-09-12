@@ -9,6 +9,11 @@ function classPhotos(redShirtHeights, blueShirtHeights) {
     // we checking for if the indexes on 0 are equal either blue or red
     const shirtColorInFirstRow = redShirtHeights[0] < blueShirtHeights[0] ? 'RED' : 'BLUE';
 
+    for (let idx = 0; idx < redShirtHeights.length; idx++) {
+        const redShirtHeight = redShirtHeight[idx];
+        const blueShirtHeight = blueShirtHeight[idx];
+      }
+
     return false;
 }
 

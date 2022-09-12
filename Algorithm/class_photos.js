@@ -10,8 +10,10 @@ function classPhotos(redShirtHeights, blueShirtHeights) {
     const shirtColorInFirstRow = redShirtHeights[0] < blueShirtHeights[0] ? 'RED' : 'BLUE';
 
     for (let idx = 0; idx < redShirtHeights.length; idx++) {
-        const redShirtHeight = redShirtHeight[idx];
-        const blueShirtHeight = blueShirtHeight[idx];
+        const redShirtHeight = redShirtHeights[idx];
+        console.log(redShirtHeight);
+        const blueShirtHeight = blueShirtHeights[idx];
+        console.log(blueShirtHeight);
       }
 
     return false;

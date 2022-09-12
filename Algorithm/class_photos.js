@@ -5,7 +5,8 @@ function classPhotos(redShirtHeights, blueShirtHeights) {
     console.log(redShirtHeights);
     blueShirtHeights.sort((a,b) => b - a);
     console.log(blueShirtHeights);
-
+    
+    // we checking for if the indexes on 0 are equal either blue or red
     const shirtColorInFirstRow = redShirtHeights[0] < blueShirtHeights[0] ? 'RED' : 'BLUE';
 
     return false;

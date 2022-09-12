@@ -16,6 +16,10 @@ function classPhotos(redShirtHeights, blueShirtHeights) {
         console.log(blueShirtHeight);
       }
 
+      if(shirtColorInFirstRow === 'RED') {
+        if(redShirtHeight >= blueShirtHeight) return false;
+      } else if (blueShirtHeight >= redShirtHeight) return false
+      
     return false;
 }
 

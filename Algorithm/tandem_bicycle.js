@@ -2,6 +2,8 @@ function tandemBicycle(redShirtSpeeds, blueShirtSpeeds, fastest) {
     // Write your code here.
     console.log(redShirtSpeeds);
     console.log(blueShirtSpeeds)
+    console.log(fastest);
+    
     return 0;
 }
 

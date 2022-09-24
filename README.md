@@ -8,4 +8,5 @@ Hackersrank problems are also included in to this repo
 
 # Python:
 
-College class
+- College class
+- This repo also includes selfresearch

@@ -1,6 +1,6 @@
 let world = 50;
 
-function isString(a,b,c) {
+function isString(a,b,c,d) {
     let list = [a,b,c]
     for (let i = 0; i < list.length; i++){
         console.log(typeof(list[i]))
@@ -12,4 +12,4 @@ function isString(a,b,c) {
     return list
 }
 
-isString("hi","kelly", world);
+isString("hi","kelly", world,"luis");

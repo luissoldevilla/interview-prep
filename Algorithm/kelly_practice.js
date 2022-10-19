@@ -13,3 +13,4 @@ function isString(a,b,c,d) {
 }
 
 isString("hi","kelly", world,"luis");
+isString("hi","kelly", world,"Karla");

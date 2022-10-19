@@ -8,7 +8,7 @@ function isString(a,b,c,d) {
             console.log("strings") 
         } else console.log("not strings")
     }
-    // console.log(list)
+    console.log(list)
     return list
 }
 

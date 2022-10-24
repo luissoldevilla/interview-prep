@@ -1,3 +1,5 @@
+// This is a problem we are coming back to 
+
 function classPhotos(redShirtHeights, blueShirtHeights) {
     // Write your code here.
     // we sort the arrays first

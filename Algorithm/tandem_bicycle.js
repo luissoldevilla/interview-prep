@@ -9,8 +9,12 @@ function tandemBicycle(redShirtSpeeds, blueShirtSpeeds, fastest) {
     console.log(blueShirtSpeeds)
     console.log(fastest);
 
+    // if fastest is false then we call in the reverse array in place
     if (!fastest) reverseArrayInPlace(redShirtSpeeds);
 
+    // we proceed to iterate through the arrays:
+
+    
     return 0;
 
     function reverseArrayInPlace(array) {

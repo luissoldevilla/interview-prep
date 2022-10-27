@@ -12,10 +12,18 @@ function tandemBicycle(redShirtSpeeds, blueShirtSpeeds, fastest) {
     // if fastest is false then we call in the reverse array in place
     if (!fastest) reverseArrayInPlace(redShirtSpeeds);
 
+    let totalSpeed = 0;
+
     // we proceed to iterate through the arrays:
 
+    for (let idx = 0; idx < redShirtSpeeds.length; idx++) {
+        const rider1 = redShirtSpeeds[idx];
+        const rider2 = blueShirtSpeeds[blueShirtSpeeds.length - idx -1];
+        totalSpeed += Math.max(rider1, rider2);
+      }
     
-    return 0;
+    console.log(totalSpeed);
+    return totalSpeed;
 
     function reverseArrayInPlace(array) {
         let start = 0;

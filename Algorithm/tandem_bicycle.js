@@ -4,6 +4,11 @@ function tandemBicycle(redShirtSpeeds, blueShirtSpeeds, fastest) {
     console.log(blueShirtSpeeds)
     console.log(fastest);
 
+    // we sort all the bycicles speeds[arrays]
+    redShirtSpeeds.sort((a,b) => a - b);
+    blueShirtSpeeds.sort((a,b) => a -b);
+  
+
     return 0;
     function reverseArrayInPlace(array) {
         let start = 0;

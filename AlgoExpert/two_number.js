@@ -4,6 +4,9 @@
 function twoNumberSum(array, targetSum) {
     for (let i = 0; i < array.lenght; i++){
         const firstNum = array[i]
+        for ( let j = 0; j < array.lenght; j++){
+            
+        }
     }
 }
 

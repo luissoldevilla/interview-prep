@@ -4,11 +4,12 @@
 function twoNumberSum(array, targetSum) {
     for (let i = 0; i < array.length - 1; i++){
         const firstNum = array[i]
-        console.log(firstNum)
+        // console.log(firstNum)
         for ( let j = 0; j < array.length; j++){
             const secondNum = array[j]
-            console.log(secondNum)
+            // console.log(secondNum)
             if (firstNum + secondNum === targetSum) {
+                console.log([firstNum, secondNum])
                 return [firstNum, secondNum]
             }
         }

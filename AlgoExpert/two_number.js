@@ -8,6 +8,9 @@ function twoNumberSum(array, targetSum) {
         for ( let j = 0; j < array.length; j++){
             const secondNum = array[j]
             console.log(secondNum)
+            if (firstNum + secondNum === targetSum) {
+                return [firstNum, secondNum]
+            }
         }
     }
 }

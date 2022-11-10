@@ -2,12 +2,14 @@
 // Return those 2 intergers in a array
 
 function twoNumberSum(array, targetSum) {
-    for (let i = 0; i < array.lenght; i++){
+    for (let i = 0; i < array.length - 1; i++){
         const firstNum = array[i]
-        for ( let j = 0; j < array.lenght; j++){
-            
+        console.log(firstNum)
+        for ( let j = 0; j < array.length; j++){
+            const secondNum = array[j]
+            console.log(secondNum)
         }
     }
 }
 
-twoNumberSum()
+twoNumberSum([3, 5, -4, 8, 11, 1, -1, 6], 10)

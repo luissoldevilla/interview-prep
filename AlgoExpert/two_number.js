@@ -20,3 +20,4 @@ function twoNumberSum(array, targetSum) {
 }
 
 twoNumberSum([3, 5, -4, 8, 11, 1, -1, 6], 10)
+twoNumberSum([4, 6, 1], 5)

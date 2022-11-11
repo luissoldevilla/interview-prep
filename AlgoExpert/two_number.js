@@ -3,6 +3,8 @@
 
 // This is the First Solution
 // O(n^2) Time | O(1) Space
+// It's O(n^2) time because it iterating twice through two loops
+
 function twoNumberSum(array, targetSum) {
     for (let i = 0; i < array.length - 1; i++){
         const firstNum = array[i]
@@ -23,3 +25,4 @@ twoNumberSum([3, 5, -4, 8, 11, 1, -1, 6], 10)
 twoNumberSum([4, 6, 1], 5)
 
 // Second Solution 
+

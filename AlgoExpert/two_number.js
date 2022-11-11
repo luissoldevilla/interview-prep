@@ -26,3 +26,6 @@ twoNumberSum([4, 6, 1], 5)
 
 // Second Solution 
 
+function twoNumberSum2(array, targetSum) {
+
+}

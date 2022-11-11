@@ -2,7 +2,7 @@
 // Return those 2 intergers in a array
 
 // This is the First Solution
-
+// O(n^2) Time | O(1) Space
 function twoNumberSum(array, targetSum) {
     for (let i = 0; i < array.length - 1; i++){
         const firstNum = array[i]
@@ -21,3 +21,5 @@ function twoNumberSum(array, targetSum) {
 
 twoNumberSum([3, 5, -4, 8, 11, 1, -1, 6], 10)
 twoNumberSum([4, 6, 1], 5)
+
+// Second Solution 

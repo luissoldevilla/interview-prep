@@ -29,6 +29,9 @@ twoNumberSum([4, 6, 1], 5)
 function twoNumberSum2(array, targetSum) {
     // we declare a hash map
     const nums = {}
+    for (const num of array) {
+        console.log(num)
+    }
 }
 
 twoNumberSum2([3, 5, -4, 8, 11, 1, -1, 6], 10)

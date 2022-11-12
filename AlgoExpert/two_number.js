@@ -30,7 +30,8 @@ function twoNumberSum2(array, targetSum) {
     // we declare a hash map
     const nums = {}
     for (const num of array) {
-        console.log(num)
+        // console.log(num)
+        const suma = targetSum - num
     }
 }
 

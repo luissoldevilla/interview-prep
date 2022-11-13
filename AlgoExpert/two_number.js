@@ -32,6 +32,11 @@ function twoNumberSum2(array, targetSum) {
     for (const num of array) {
         // console.log(num)
         const suma = targetSum - num
+        if (suma in nums) {
+            return [suma, num]
+        } else {
+            
+        }
     }
 }
 

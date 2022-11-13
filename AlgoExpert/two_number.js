@@ -35,7 +35,7 @@ function twoNumberSum2(array, targetSum) {
         if (suma in nums) {
             return [suma, num]
         } else {
-            
+            nums[num] = true
         }
     }
 }

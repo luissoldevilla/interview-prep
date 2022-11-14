@@ -26,9 +26,9 @@ twoNumberSum([4, 6, 1], 5)
 
 // Second Solution 
 // Time Complexity:
-// O(n) Time | O(n) 
+// O(n) Time | O(n) Space
 // O(n) Time: It only gotta run once because we using a hashmap
-// 
+// O(n) Space: Because we storing our values in a hashmap 
 
 function twoNumberSum2(array, targetSum) {
     // we declare a hash map

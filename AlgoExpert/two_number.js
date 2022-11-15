@@ -24,6 +24,8 @@ function twoNumberSum(array, targetSum) {
 
 twoNumberSum([3, 5, -4, 8, 11, 1, -1, 6], 10)
 twoNumberSum([4, 6, 1], 5)
+twoNumberSum([1, 2, 3, 4, 5, 6, 7, 8, 9], 17)
+
 
 // Second Solution 
 // Time Complexity:
@@ -50,4 +52,5 @@ function twoNumberSum2(array, targetSum) {
 
 twoNumberSum2([3, 5, -4, 8, 11, 1, -1, 6], 10)
 twoNumberSum2([4, 6, 1], 5)
+twoNumberSum2([1, 2, 3, 4, 5, 6, 7, 8, 9], 17)
 

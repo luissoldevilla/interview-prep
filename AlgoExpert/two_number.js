@@ -4,6 +4,7 @@
 // This is the First Solution
 // O(n^2) Time | O(1) Space
 // It's O(n^2) time because it iterating twice through two loops
+// O(1) Space Because we storing varibles
 
 function twoNumberSum(array, targetSum) {
     for (let i = 0; i < array.length - 1; i++){

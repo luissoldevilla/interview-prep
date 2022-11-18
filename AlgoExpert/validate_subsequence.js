@@ -1,6 +1,7 @@
 // Validate Subsequence
 
-// Find a subsequence for the given array
+// Find a subsequence for the given array:
+// Return a either True or Fals
 
 function isValidSubsequence(array, sequence) {
     // we set up counters

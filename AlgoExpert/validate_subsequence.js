@@ -1,5 +1,7 @@
 // Validate Subsequence
 
+// Find a subsequence for the given array
+
 function isValidSubsequence(array, sequence) {
     // we set up counters
     let arr = 0;

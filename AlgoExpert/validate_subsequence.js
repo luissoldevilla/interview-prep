@@ -11,6 +11,7 @@ function isValidSubsequence(array, sequence) {
             sub++
             arr++
         }
+        return sub === sequence.length
     }
 }
 

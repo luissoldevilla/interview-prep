@@ -7,6 +7,10 @@ function isValidSubsequence(array, sequence) {
     // we set up a  while loop 
     while (arr < array.length && sub < sequence.length) {
         console.log(array[arr])
+        if (array[arr] === sequence[sub]) {
+            sub++
+            arr++
+        }
     }
 }
 

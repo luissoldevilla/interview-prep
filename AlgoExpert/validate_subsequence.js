@@ -3,6 +3,9 @@
 // Find a subsequence for the given array:
 // Return a either True or Fals
 
+
+//  First Solution  
+
 function isValidSubsequence(array, sequence) {
     // we set up counters
     let arr = 0;
@@ -20,3 +23,11 @@ function isValidSubsequence(array, sequence) {
 }
 
 isValidSubsequence([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
+
+
+// Second solution
+
+function isValidSubsequence2(array, sequence) {
+
+}
+

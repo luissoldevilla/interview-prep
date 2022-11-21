@@ -32,7 +32,10 @@ function isValidSubsequence2(array, sequence) {
     // Set up a for loop that iterates through array 
     //  while declaring a constant named value
     for (const value of array) {
-
+        if (seqIdx === sequence.length) break;
+        if (sequence[seqIdx1] === value) {
+            seqIdx++;
+        }
     }
 
 }

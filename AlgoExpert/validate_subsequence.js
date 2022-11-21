@@ -12,12 +12,12 @@ function isValidSubsequence(array, sequence) {
     let sub = 0;
     // we set up a  while loop 
     while (arr < array.length && sub < sequence.length) {
-        console.log(array[arr])
+        // console.log(array[arr])
         if (array[arr] === sequence[sub]) {
             sub++
             arr++
         }
-        console.log(sub)
+        // console.log(sub)
         return sub === sequence.length
     }
 }
@@ -37,7 +37,8 @@ function isValidSubsequence2(array, sequence) {
             seqIdx++;
         }
     }
-
+    console.log(seqIdx)
+    return seqIdx === sequence.length;
 }
 
 isValidSubsequence2([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])

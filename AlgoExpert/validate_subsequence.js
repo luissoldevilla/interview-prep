@@ -5,6 +5,8 @@
 
 
 //  First Solution  
+// O(n) Time 
+// O(1) Space - Where n is the length of the array
 
 function isValidSubsequence(array, sequence) {
     // we set up counters

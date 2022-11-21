@@ -26,7 +26,8 @@ isValidSubsequence([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
 
 
 // Second solution
-
+// O(n) Time 
+// O(1) Space - Where n is the length of the array
 function isValidSubsequence2(array, sequence) {
     let seqIdx = 0;
     // Set up a for loop that iterates through array 

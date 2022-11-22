@@ -9,4 +9,4 @@ function sortedSquaredArray(array   ) {
     return sortedSquares;
 }
 
-sortedSquaredArray()
+sortedSquaredArray([1, 2, 3, 5, 6, 8, 9])

@@ -4,7 +4,7 @@ function sortedSquaredArray(array   ) {
         const int = array[i];
         sortedSquares[i] = int * int;
     }
-
+    sortedSquares.sort((a,b) => a - b);
 }
 
 sortedSquaredArray()

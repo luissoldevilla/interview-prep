@@ -10,3 +10,4 @@ function sortedSquaredArray(array   ) {
 }
 
 sortedSquaredArray([1, 2, 3, 5, 6, 8, 9])
+sortedSquaredArray([1, 2, 3, 4, 5])

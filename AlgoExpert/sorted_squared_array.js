@@ -5,6 +5,7 @@ function sortedSquaredArray(array   ) {
         sortedSquares[i] = int * int;
     }
     sortedSquares.sort((a,b) => a - b);
+    return sortedSquares;
 }
 
 sortedSquaredArray()

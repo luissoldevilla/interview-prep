@@ -22,6 +22,10 @@ function sortedSquaredArray2(array) {
     for (let idx = array.length -1; idx >= 0; idx--) {
         const smallerValue = array[smallValueIdx];
         const largerValue = array[largerValueIdx];
+
+        if (Math.abs(smallerValue) > Math.abs(largerValue)) {
+            
+        }
     }
 }
 

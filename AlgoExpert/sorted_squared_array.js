@@ -25,6 +25,9 @@ function sortedSquaredArray2(array) {
 
         if (Math.abs(smallerValue) > Math.abs(largerValue)) {
             sortSquares[idx] = smallerValue * smallerValue;
+            smallerValue++;
+        } else {
+            sortSquares[idx] = largerValue * largerValue;
         }
     }
 }

@@ -24,7 +24,7 @@ function sortedSquaredArray2(array) {
         const largerValue = array[largerValueIdx];
 
         if (Math.abs(smallerValue) > Math.abs(largerValue)) {
-            
+            sortSquares[idx] = smallerValue * smallerValue;
         }
     }
 }

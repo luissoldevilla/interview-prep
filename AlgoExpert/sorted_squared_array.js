@@ -15,7 +15,8 @@ sortedSquaredArray([1, 2, 3, 5, 6, 8, 9])
 sortedSquaredArray([1, 2, 3, 4, 5])
 
 function sortedSquaredArray2(array) {
-
+    const sortSquares = new Array(array.length).fill(0);
+    
 }
 
 sortedSquaredArray2()

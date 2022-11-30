@@ -18,6 +18,10 @@ function sortedSquaredArray2(array) {
     const sortSquares = new Array(array.length).fill(0);
     let smallValueIdx = 0;
     let largerValueIdx = array.length - 1;
+
+    for (let idx = array.length -1; idx >= 0; idx--) {
+        
+    }
 }
 
 sortedSquaredArray2()

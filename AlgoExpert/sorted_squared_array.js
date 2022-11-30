@@ -28,6 +28,7 @@ function sortedSquaredArray2(array) {
             smallerValue++;
         } else {
             sortSquares[idx] = largerValue * largerValue;
+            largerValueIdx--;
         }
     }
 }

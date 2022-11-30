@@ -20,7 +20,8 @@ function sortedSquaredArray2(array) {
     let largerValueIdx = array.length - 1;
 
     for (let idx = array.length -1; idx >= 0; idx--) {
-        
+        const smallerValue = array[smallValueIdx];
+        const largerValue = array[largerValueIdx];
     }
 }
 

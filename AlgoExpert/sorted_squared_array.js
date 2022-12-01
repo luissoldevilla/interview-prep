@@ -34,4 +34,4 @@ function sortedSquaredArray2(array) {
     return sortedSquares;
 }
 
-sortedSquaredArray2()
+sortedSquaredArray2([1, 2, 3, 5, 6, 8, 9])

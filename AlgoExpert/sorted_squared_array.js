@@ -5,7 +5,6 @@ function sortedSquaredArray(array) {
         const int = array[i];
         sortedSquares[i] = int * int;
     }
-    console.log(newArr)
     sortedSquares.sort((a,b) => a - b);
     return sortedSquares;
 

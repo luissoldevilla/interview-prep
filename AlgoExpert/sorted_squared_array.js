@@ -37,5 +37,5 @@ function sortedSquaredArray2(array) {
 
 console.log(sortedSquaredArray2([1, 2, 3, 5, 6, 8, 9]))
 console.log(sortedSquaredArray2([1, 2, 3, 5, 6, 8, 9]))
-sortedSquaredArray2([1, 2, 3, 4, 5])
+console.log(sortedSquaredArray2([1, 2, 3, 4, 5]))
 sortedSquaredArray2([1, 2])

@@ -28,7 +28,8 @@ isValidSubsequence([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
 isValidSubsequence([1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
 isValidSubsequence([1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
 isValidSubsequence([22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
-isValidSubsequence([22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
+isValidSubsequence([22, 6, -1, 8, 10], [1, 6, -1, 10])
+isValidSubsequence([22, 6, -1, 8, 10], [1, 6, -1, 10])
 
 
 // Second solution

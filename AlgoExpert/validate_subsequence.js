@@ -25,6 +25,7 @@ function isValidSubsequence(array, sequence) {
 }
 
 isValidSubsequence([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
+isValidSubsequence([1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
 
 
 // Second solution
@@ -45,6 +46,3 @@ function isValidSubsequence2(array, sequence) {
 }
 
 isValidSubsequence2([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
-isValidSubsequence2([5, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
-isValidSubsequence2([5, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
-isValidSubsequence2([5, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])

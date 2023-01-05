@@ -19,7 +19,7 @@ function isValidSubsequence(array, sequence) {
             sub++
             arr++
         }
-        // console.log(sub)
+        console.log(sub)
         return sub === sequence.length
     }
 }

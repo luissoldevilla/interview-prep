@@ -47,3 +47,4 @@ function isValidSubsequence2(array, sequence) {
 isValidSubsequence2([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
 isValidSubsequence2([5, 1, 25, 6, -1, 8, 10], [1, 6, -1, 10])
 isValidSubsequence2([5, 25, 6, -1, 8, 10], [1, 6, -1, 10])
+isValidSubsequence2([25, 6, -1, 8, 10], [1, 6, -1, 10])

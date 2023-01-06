@@ -40,12 +40,9 @@ function isValidSubsequence2(array, sequence) {
             seqIdx++;
         }
     }
-    // console.log(seqIdx)
+    console.log(seqIdx)
     return seqIdx === sequence.length;
 }
 
 isValidSubsequence2([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10])
-isValidSubsequence2([5, 1, 25, 6, -1, 8, 10], [1, 6, -1, 10])
-isValidSubsequence2([5, 25, 6, -1, 8, 10], [1, 6, -1, 10])
-isValidSubsequence2([25, 6, -1, 8, 10], [1, 6, -1, 10])
-isValidSubsequence2([25, 6, -1, 8, 10], [1, 6, -1, 10])
+isValidSubsequence2([1, 2, 3, 4], [2, 4, 5])

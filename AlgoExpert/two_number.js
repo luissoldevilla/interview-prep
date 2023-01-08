@@ -53,10 +53,8 @@ function twoNumberSum2(array, targetSum) {
 }
 
 twoNumberSum2([3, 5, -4, 8, 11, 1, -1, 6], 10)
-twoNumberSum2([4, 6, 1], 5)
-twoNumberSum2([1, 2, 3, 4, 5, 6, 7, 8, 9], 17)
-twoNumberSum2([1, 2, 3, 4, 5, 6, 7, 8, 9, 15], 18)
-twoNumberSum2([-7, -5, -3, -1, 0, 1, 3, 5, 7], -5)
+twoNumberSum2([4, 6, 1], 50)
+twoNumberSum2([4, 6, 1], 50)
 
 
 

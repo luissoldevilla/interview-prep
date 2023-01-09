@@ -27,6 +27,7 @@ twoNumberSum([4, 6, 1], 5)
 twoNumberSum([1, 2, 3, 4, 5, 6, 7, 8, 9], 17)
 twoNumberSum([1, 2, 3, 4, 5, 6, 7, 8, 9, 15], 18)
 twoNumberSum([-7, -5, -3, -1, 0, 1, 3, 5, 7], -5)
+twoNumberSum([-7, -5, -3, -1, 0, 1, 3, 5, 7], -5)
 
 
 // Second Solution 

@@ -42,6 +42,7 @@ function isValidSubsequence2(array, sequence) {
         if (sequence[seqIdx] === value) {
             seqIdx++;
             seqIdx++;
+            seqIdx++;
         }
     }
     console.log(seqIdx)

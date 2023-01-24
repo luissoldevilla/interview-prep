@@ -41,11 +41,6 @@ function isValidSubsequence2(array, sequence) {
         if (seqIdx === sequence.length) break;
         if (sequence[seqIdx] === value) {
             seqIdx++;
-            seqIdx++;
-            seqIdx++;
-            seqIdx++;
-            seqIdx++;
-            seqIdx++;
         }
     }
     console.log(seqIdx)

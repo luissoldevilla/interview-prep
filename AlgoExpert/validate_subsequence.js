@@ -46,6 +46,7 @@ function isValidSubsequence2(array, sequence) {
     console.log(seqIdx)
     console.log(seqIdx)
     console.log(seqIdx)
+    console.log(seqIdx)
     return seqIdx === sequence.length;
 }
 

@@ -2,4 +2,4 @@ function tournamentWinner(competitions, results) {
 
 }
 
-tournamentWinner()
+tournamentWinner([["HTML", "Java"], ["Java", "Python"], ["Python", "HTML"]])

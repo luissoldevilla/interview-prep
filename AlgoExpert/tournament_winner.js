@@ -1,0 +1,3 @@
+function tournamentWinner(competitions, results) {
+    
+}

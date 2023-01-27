@@ -3,7 +3,8 @@ function tournamentWinner(competitions, results) {
     const scores = {[currentBestTeam]: 0};
 
     for (let idx = 0; idx < competitions.length; idx++) {
-        
+        const result = results[idx];
+
     }
 }
 

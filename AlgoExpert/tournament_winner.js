@@ -10,6 +10,10 @@ function tournamentWinner(competitions, results) {
 
         updatedScores(winningTeam, 3, scores);
 
+        if (scores[winningTeam] > scores[currentBestTeam]) {
+            
+        }
+
     }
 }
 

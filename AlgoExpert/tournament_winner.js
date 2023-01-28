@@ -19,6 +19,7 @@ function tournamentWinner(competitions, results) {
 
 function updatedScores(team, points, scores) {
     if (!(team in scores)) scores[team] = 0;
+    scores[team] += points;
 }
 
 tournamentWinner([["HTML", "Java"], ["Java", "Python"], ["Python", "HTML"]], [0, 1, 1])

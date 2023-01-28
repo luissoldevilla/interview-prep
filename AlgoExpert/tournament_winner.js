@@ -12,13 +12,13 @@ function tournamentWinner(competitions, results) {
 
         if (scores[winningTeam] > scores[currentBestTeam]) {
             currentBestTeam = winningTeam;
-        }
+        }   
     }
     return currentBestTeam;
 }
 
-function updatedScores() {
-    
+function updatedScores(team, points, scores) {
+
 }
 
 tournamentWinner([["HTML", "Java"], ["Java", "Python"], ["Python", "HTML"]], [0, 1, 1])

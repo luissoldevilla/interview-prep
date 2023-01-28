@@ -11,10 +11,10 @@ function tournamentWinner(competitions, results) {
         updatedScores(winningTeam, 3, scores);
 
         if (scores[winningTeam] > scores[currentBestTeam]) {
-            
+            currentBestTeam = winningTeam;
         }
-
     }
+    return currentBestTeam;
 }
 
 tournamentWinner([["HTML", "Java"], ["Java", "Python"], ["Python", "HTML"]], [0, 1, 1])

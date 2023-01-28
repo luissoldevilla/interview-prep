@@ -17,4 +17,8 @@ function tournamentWinner(competitions, results) {
     return currentBestTeam;
 }
 
+function updatedScores() {
+    
+}
+
 tournamentWinner([["HTML", "Java"], ["Java", "Python"], ["Python", "HTML"]], [0, 1, 1])

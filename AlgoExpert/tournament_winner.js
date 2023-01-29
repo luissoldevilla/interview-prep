@@ -1,3 +1,5 @@
+const HOME_TEAM_WON = 1;
+
 function tournamentWinner(competitions, results) {
     let currentBestTeam = '';
     const scores = {[currentBestTeam]: 0};

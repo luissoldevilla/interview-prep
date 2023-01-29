@@ -14,11 +14,13 @@ function tournamentWinner(competitions, results) {
             currentBestTeam = winningTeam;
         }   
     }
+    console.log(currentBestTeam)
     return currentBestTeam;
 }
 
 function updatedScores(team, points, scores) {
     if (!(team in scores)) scores[team] = 0;
+
     scores[team] += points;
 }
 

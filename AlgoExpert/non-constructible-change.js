@@ -1,5 +1,5 @@
 function nonConstructibleChange(coins) {
-    coins.sort()
+    coins.sort((a,b) => a - b);
 }
 
 nonConstructibleChange()

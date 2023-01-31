@@ -11,6 +11,7 @@ function tournamentWinner(competitions, results) {
 
         const winningTeam = result === HOME_TEAM_WON ? homeTeam : awayTeam;
         console.log(winningTeam)
+        console.log(winningTeam)
 
         updatedScores(winningTeam, 3, scores);
 

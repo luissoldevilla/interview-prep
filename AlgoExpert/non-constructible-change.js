@@ -2,4 +2,4 @@ function nonConstructibleChange(coins) {
     coins.sort((a,b) => a - b);
 }
 
-nonConstructibleChange()
+nonConstructibleChange([5, 7, 1, 1, 2, 3, 22])

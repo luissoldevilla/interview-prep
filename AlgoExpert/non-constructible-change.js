@@ -1,9 +1,7 @@
 function nonConstructibleChange(coins) {
     console.log(coins);
-    console.log('codeine')
-
-    // coins.sort((a,b) => a - b);
-    // console.log(coins.sort((a,b) => a - b))
+    coins.sort((a,b) => a - b);
+    console.log(coins.sort((a,b) => a - b))
 
     let currentChangeCreated = 0;
 

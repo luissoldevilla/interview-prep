@@ -8,6 +8,7 @@ function nonConstructibleChange(coins) {
     for (const coin of coins) {
         if (coin > currentChangeCreated + 1) {
             return currentChangeCreated + 1;
+            currentChangeCreated += coin;
         }
     }
 }

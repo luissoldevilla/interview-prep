@@ -11,6 +11,7 @@ function nonConstructibleChange(coins) {
             currentChangeCreated += coin;
         }
     }
+    return currentChangeCreated + 1;
 }
 
 nonConstructibleChange([5, 7, 1, 1, 2, 3, 22])

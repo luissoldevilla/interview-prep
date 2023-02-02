@@ -6,7 +6,7 @@ function nonConstructibleChange(coins) {
     let currentChangeCreated = 0;
 
     for (const coin of coins) {
-        if (coin) {
+        if (coin > currentChangeCreated + 1) {
 
         }
     }

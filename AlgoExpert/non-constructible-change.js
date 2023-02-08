@@ -8,6 +8,9 @@ function nonConstructibleChange(coins) {
     coins.sort((a,b) => a - b);
     // console.log(coins.sort((a,b) => a - b))
 
+    // Question to ask interwire:
+    // 
+
     let currentChangeCreated = 0;
 
 

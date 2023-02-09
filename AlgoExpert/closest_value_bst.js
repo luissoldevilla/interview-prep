@@ -1,8 +1,8 @@
-function findClosestValueInBst(tree,target) {
+function findClosestValueInBst(tree, target) {
 
 }
 
-function findClosestValueInBstHelper(){
+function findClosestValueInBstHelper(tree, target, closest) {
     
 }
 

@@ -6,6 +6,9 @@ function findClosestValueInBst(tree, target) {
 function findClosestValueInBstHelper(tree, target, closest) {
     console.log(tree)
     if (tree === null) return closest
+    if (Math.abs(target - closest) > Math.abs(target - tree.value)) {
+
+    }
 }
 
 findClosestValueInBst(

@@ -4,7 +4,7 @@ function findClosestValueInBst(tree, target) {
 }
 
 function findClosestValueInBstHelper(tree, target, closest) {
-    
+    console.log(tree)
 }
 
 findClosestValueInBst(

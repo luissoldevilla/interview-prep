@@ -1,4 +1,5 @@
 function findClosestValueInBst(tree, target) {
+    findClosestValueInBstHelper(tree, target, tree.value)
 
 }
 

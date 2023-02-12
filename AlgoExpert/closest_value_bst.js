@@ -9,7 +9,7 @@ function findClosestValueInBstHelper(tree, target, closest) {
     if (Math.abs(target - closest) > Math.abs(target - tree.value)) {
         closest = tree.value
     }
-    if (target < tree) { 
+    if (target < tree.value) { 
 
     }
 }

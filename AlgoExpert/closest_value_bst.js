@@ -10,7 +10,7 @@ function findClosestValueInBstHelper(tree, target, closest) {
         closest = tree.value
     }
     if (target < tree.value) { 
-
+        return findClosestValueInBstHelper(tree.left)
     }
 }
 

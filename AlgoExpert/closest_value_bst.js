@@ -11,7 +11,7 @@ function findClosestValueInBstHelper(tree, target, closest) {
     }
     if (target < tree.value) { 
         return findClosestValueInBstHelper(tree.left, target, closest);
-    } else if (target > target) {
+    } else if (target > target.value) {
 
     }
 }

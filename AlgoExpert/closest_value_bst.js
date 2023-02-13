@@ -13,6 +13,8 @@ function findClosestValueInBstHelper(tree, target, closest) {
         return findClosestValueInBstHelper(tree.left, target, closest);
     } else if (target > target.value) {
         return findClosestValueInBstHelper(tree.right);
+    } else {
+        
     }
 }
 

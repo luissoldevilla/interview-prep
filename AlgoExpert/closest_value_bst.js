@@ -1,7 +1,7 @@
 // Find the Closest Value in BST
 
 
-// Avg: O(log(N)) | O(log(n)) Space
+// Avg: O(log(N)) Time | O(log(n)) Space
 // Worst: O(n)
 function findClosestValueInBst(tree, target) {
     findClosestValueInBstHelper(tree, target, tree.value)

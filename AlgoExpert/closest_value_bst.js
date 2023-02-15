@@ -12,7 +12,9 @@ function findClosestValueInBst(tree, target) {
 function findClosestValueInBstHelper(tree, target, closest) {
     console.log(tree)
     // First we check if the tree is empty or not
+    // If it is we can return the closest
     if (tree === null) return closest
+
     if (Math.abs(target - closest) > Math.abs(target - tree.value)) {
         closest = tree.value
     }

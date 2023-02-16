@@ -7,7 +7,7 @@
 //     / \   / \
 //    2   5 13 22
 //   /       \
-// 
+//  1         14
 
 // Avg: O(log(N)) Time | O(log(n)) Space
 // Worst: O(n) Time | O(n) Space

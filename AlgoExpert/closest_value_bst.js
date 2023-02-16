@@ -4,6 +4,7 @@
 // Tree =  10
 //        /  \
 //      5     5
+//     / \   / \
 
 // Avg: O(log(N)) Time | O(log(n)) Space
 // Worst: O(n) Time | O(n) Space

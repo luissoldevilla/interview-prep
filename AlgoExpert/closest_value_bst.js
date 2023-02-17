@@ -11,6 +11,8 @@
 // 
 //  Target = 12
 
+// Sample
+
 // Avg: O(log(N)) Time | O(log(n)) Space
 // Worst: O(n) Time | O(n) Space
 

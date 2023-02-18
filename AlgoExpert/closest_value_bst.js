@@ -17,7 +17,7 @@
 // Worst: O(n) Time | O(n) Space
 
 function findClosestValueInBst(tree, target) {
-    console.log(findClosestValueInBstHelper(tree, target, tree.value))
+    // console.log(findClosestValueInBstHelper(tree, target, tree.value))
     findClosestValueInBstHelper(tree, target, tree.value)
 
 }

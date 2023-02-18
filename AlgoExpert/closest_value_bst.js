@@ -36,6 +36,7 @@ function findClosestValueInBstHelper(tree, target, closest) {
     } else if (target > target.value) {
         return findClosestValueInBstHelper(tree.right, target, closest);
     } else {
+        console.log(closest)
         return closest
     }
 }

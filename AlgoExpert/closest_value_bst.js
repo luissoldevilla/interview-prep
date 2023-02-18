@@ -60,5 +60,15 @@ findClosestValueInBst(
     "target": 12
   });
 
-  findClosestValueInBst()
+  findClosestValueInBst(
+    {
+        "tree": {
+          "nodes": [
+            {"id": "10", "left": "5", "right": "15", "value": 10},
+          ],
+          "root": "10"
+        },
+        "target": 12
+      }
+  )
   

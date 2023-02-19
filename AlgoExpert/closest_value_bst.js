@@ -69,6 +69,7 @@ findClosestValueInBst(
             {"id": "22", "left": null, "right": null, "value": 22},
             {"id": "13", "left": null, "right": "14", "value": 13},
             {"id": "14", "left": null, "right": null, "value": 14},
+            {"id": "5", "left": "2", "right": "5-2", "value": 5},
           ],
           "root": "10"
         },

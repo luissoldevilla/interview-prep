@@ -23,14 +23,15 @@ function findClosestValueInBst(tree, target) {
 }
 
 function findClosestValueInBstHelper(tree, target, closest) {
-    console.log(tree.target)
-    console.log(closest)
+    // console.log(tree.target)
+    // console.log(closest)
     // First we check if the tree is empty or not
     // If it is we can return the closest
     if (tree === null) return closest
 
     if (Math.abs(target - closest) > Math.abs(target - tree.value)) {
         closest = tree.value
+        console.log(closest)
     }
     if (target < tree.value) { 
         return findClosestValueInBstHelper(tree.left, target, closest);

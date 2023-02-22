@@ -60,7 +60,7 @@ findClosestValueInBst(
       ],
       "root": "10"
     },
-    "target": 21
+    "target": 22
   })
 
 //   findClosestValueInBst(

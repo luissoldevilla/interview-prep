@@ -22,6 +22,7 @@ function nonConstructibleChange(coins) {
         }
     }
     // console logging
+    console.log("Reaching?")
     console.log(currentChangeCreated + 1)
     console.log(currentChangeCreated)
 

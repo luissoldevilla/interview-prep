@@ -1,4 +1,5 @@
 // Non-Constructible Change problem!
+// I gotta check for changes on the array
 
 // O(nlogn) Time | O(1) Space - Where n is the number of coins
 

@@ -38,5 +38,5 @@ function nonConstructibleChange(coins) {
 // 20
 nonConstructibleChange([5, 7, 1, 1, 2, 3, 22])
 nonConstructibleChange([5, 7, 1, 1, 2, 3, 24])
-nonConstructibleChange([5, 7, 1, 1, 2, 8, 24])
+nonConstructibleChange([5, 7, 2, 8, 24])
 nonConstructibleChange([1, 5, 1, 1, 1, 10, 15, 20, 100])

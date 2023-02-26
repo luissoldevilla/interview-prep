@@ -24,7 +24,7 @@ function nonConstructibleChange(coins) {
     }
 
     // console logging
-    console.log()
+
     console.log(currentChangeCreated + 1)
     console.log(currentChangeCreated)
 

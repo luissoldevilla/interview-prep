@@ -37,3 +37,4 @@ makeAnagram('cde', 'abc');
 makeAnagram('edc', 'cba');
 makeAnagram('edcg', 'cbak'); // third test - checking for other cases
 makeAnagram('edcg', 'cbak'); // forth test -  especial cases?
+makeAnagram('edcg', 'ak'); // forth test -  especial cases?

@@ -7,6 +7,7 @@ function makeAnagram(a, b) {
     // do loop for a
     for (let i = 0; i < a.length; i++) {
         // we populate our hash
+        // we check if our population is true
         if (!map[a[i]]) {
             map[a[i]] = 1;
             // console.log(map[a[i]]);
@@ -35,5 +36,4 @@ function makeAnagram(a, b) {
 makeAnagram('cde', 'abc');
 makeAnagram('edc', 'cba');
 makeAnagram('edcg', 'cbak'); // third test - checking for other cases
-makeAnagram('edcg', 'cbak'); // forth test -  especial cases?
 makeAnagram('edcg', 'cbak'); // forth test -  especial cases?

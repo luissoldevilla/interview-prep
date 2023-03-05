@@ -11,7 +11,7 @@ function makeAnagram(a, b) {
         console.log(!map[a[i]])
         if (!map[a[i]]) {
             map[a[i]] = 1;
-            // console.log(map[a[i]]);
+            console.log(map[a[i]]);
         } else {
             map[a[i]] += 1;
         }

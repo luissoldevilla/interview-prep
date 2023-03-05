@@ -8,6 +8,7 @@ function makeAnagram(a, b) {
     for (let i = 0; i < a.length; i++) {
         // we populate our hash
         // we check if our population is true
+        console.log(!map[a[i]])
         if (!map[a[i]]) {
             map[a[i]] = 1;
             // console.log(map[a[i]]);
@@ -30,7 +31,7 @@ function makeAnagram(a, b) {
     }
 
     let deletions = (a.length - aCount) + bCount;
-    // console.log(deletions);
+    console.log(deletions);
     return deletions;
 }
 

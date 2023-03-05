@@ -23,7 +23,6 @@ function makeAnagram(a, b) {
         console.log(map[b[j]])
         if (map[b[j]]) {
             aCount += 1;
-            // console.log(aCount);
             map[b[j]] -= 1;
         } else {
             bCount += 1

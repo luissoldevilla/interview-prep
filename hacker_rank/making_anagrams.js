@@ -20,7 +20,7 @@ function makeAnagram(a, b) {
     
 
     for (let j = 0; j < b.length; j++) {
-        console.log(map[b[j]])
+        // console.log(map[b[j]])
         if (map[b[j]]) {
             aCount += 1;
             map[b[j]] -= 1;

@@ -24,7 +24,6 @@ function makeAnagram(a, b) {
             map[b[j]] -= 1;
         } else {
             bCount += 1
-            // console.log(bCount);
         }
     }
 

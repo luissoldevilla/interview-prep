@@ -10,7 +10,6 @@ function makeAnagram(a, b) {
     for (let i = 0; i < a.length; i++) {
         // we populate our hash
         // we check if our population is true
-        // console.log(!map[a[i]])
         if (!map[a[i]]) {
             map[a[i]] = 1;
         } else {

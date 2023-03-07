@@ -28,7 +28,6 @@ function makeAnagram(a, b) {
     }
 
     let deletions = (a.length - aCount) + bCount;
-    // console.log(deletions);
     return deletions;
 }
 

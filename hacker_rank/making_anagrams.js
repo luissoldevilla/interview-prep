@@ -1,5 +1,5 @@
 
-// O(n) Time & Complexity
+// O(n) Time & Complexity   
 function makeAnagram(a, b) {
     // Write your code here
 
@@ -36,3 +36,47 @@ makeAnagram('edc', 'cba');
 makeAnagram('edcg', 'cbak'); // third test - checking for other cases
 makeAnagram('edcg', 'cbak'); // forth test -  especial cases?
 makeAnagram('edcg', 'ak'); // forth test -  especial cases?
+
+
+// Alternate Response
+
+function makeAnagram(a, b) {
+    const freqA = getFrequency(a);
+    const freqB = getFrequency(b);
+    let deletions = 0;
+    
+    for (const char in freqA) {
+      if (!freqB[char]) {
+        deletions += freqA[char];
+      } else {
+        deletions += Math.abs(freqA[char] - freqB[char]);
+        freqB[char] = null;
+      }
+    }
+    
+    for (const char in freqB) {
+      if (freqB[char]) {
+        deletions += freqB[char];
+      }
+    }
+    
+    return deletions;
+  }
+  
+  function getFrequency(str) {
+    const freq = {};
+    
+    for (const char of str) {
+      freq[char] = freq[char] + 1 || 1;
+    }
+    
+    return freq;
+  }
+
+makeAnagram('')
+getFrequency('')
+  
+  
+  
+  
+  

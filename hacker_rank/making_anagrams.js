@@ -59,7 +59,7 @@ function makeAnagram(a, b) {
         deletions += freqB[char];
       }
     }
-    
+    console.log(deletions);
     return deletions;
   }
   

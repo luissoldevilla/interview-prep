@@ -41,6 +41,7 @@ makeAnagram('edcg', 'ak'); // forth test -  especial cases?
 // Alternate Response || CGT
 
 function makeAnagram(a, b) {
+
     const freqA = getFrequency(a);
     const freqB = getFrequency(b);
     let deletions = 0;
@@ -50,7 +51,8 @@ function makeAnagram(a, b) {
         deletions += freqA[char];
       } else {
           deletions += Math.abs(freqA[char] - freqB[char]);
-          console.log(deletions)
+        //   console.log(deletions)
+          console.log(freqA[char])
         freqB[char] = null;
       }
     }

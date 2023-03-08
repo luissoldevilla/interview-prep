@@ -38,7 +38,7 @@ makeAnagram('edcg', 'cbak'); // forth test -  especial cases?
 makeAnagram('edcg', 'ak'); // forth test -  especial cases?
 
 
-// Alternate Response
+// Alternate Response || CGT
 
 function makeAnagram(a, b) {
     const freqA = getFrequency(a);

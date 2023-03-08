@@ -49,7 +49,8 @@ function makeAnagram(a, b) {
       if (!freqB[char]) {
         deletions += freqA[char];
       } else {
-        deletions += Math.abs(freqA[char] - freqB[char]);
+          deletions += Math.abs(freqA[char] - freqB[char]);
+          console.log(deletions)
         freqB[char] = null;
       }
     }
@@ -60,7 +61,7 @@ function makeAnagram(a, b) {
       }
     }
     // Object reacching here
-    console.log(deletions, freqA, freqB);
+    // console.log(deletions, freqA, freqB);
     return deletions;
   }
   

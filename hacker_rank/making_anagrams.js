@@ -75,7 +75,7 @@ function makeAnagram(a, b) {
     for (const char of str) {
       freq[char] = freq[char] + 1 || 1;
     }
-    // console.log(freq)
+    console.log(freq)
     return freq;
   }
 

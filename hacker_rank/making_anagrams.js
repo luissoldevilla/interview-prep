@@ -54,7 +54,7 @@ function makeAnagram(a, b) {
           deletions = deletions + Math.abs(freqA[char] - freqB[char])
           console.log(deletions)
         // console.log(freqB)
-        //   console.log(freqA)
+          console.log(freqA)
         freqB[char] = null;
       }
     }

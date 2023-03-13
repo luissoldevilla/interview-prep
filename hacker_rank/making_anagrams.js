@@ -86,6 +86,7 @@ getFrequency('cde', 'abc')
 getFrequency('cde', 'abc')
 getFrequency('cde', 'abc')
 getFrequency('cde', 'abc')
+getFrequency('cde', 'abc')
   
   
   

@@ -80,10 +80,6 @@ function makeAnagram(a, b) {
     return freq;
   }
 
-// makeAnagram('cde', 'abc')
-makeAnagram('cde', 'abc')
-makeAnagram('cde', 'abc')
-makeAnagram('cde', 'abc')
 makeAnagram('cde', 'abc')
 makeAnagram('cde', 'abc')
 getFrequency('cde', 'abc')

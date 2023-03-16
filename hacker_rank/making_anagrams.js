@@ -84,7 +84,7 @@ makeAnagram('cde', 'abc')
 makeAnagram('cde', 'abc')
 makeAnagram('cde', 'abc')
 makeAnagram('cde', 'abc')
-makeAnagram('cde', 'abc')
+getFrequency('cde', 'abc')
 getFrequency('cde', 'abc')
   
   

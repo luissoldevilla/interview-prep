@@ -81,6 +81,7 @@ function makeAnagram(a, b) {
   }
 
 makeAnagram('cde', 'abc')
+makeAnagram('cde', 'abcde')
 getFrequency('cde', 'abc')
   
   

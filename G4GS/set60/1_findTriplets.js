@@ -9,12 +9,15 @@ function find3Numbers(a, N) {
         for (let k = j + 1; k < N; k++) {
           // If the condition a[i] < a[j] < a[k] is satisfied, return the result
           if (a[i] < a[j] && a[j] < a[k]) {
-            return [a[i], a[j], a[k]];
+            console.log([a[i], a[j], a[k]])
+            console.log(1)
+            return 1;
           }
         }
       }
     }
     // If no such triplet is found, return an empty array
-    return [];
+    return -1;
   }
-  
+
+find3Numbers([1,2,1,1,3], 5)

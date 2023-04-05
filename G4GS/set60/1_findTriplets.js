@@ -31,4 +31,5 @@ function find3Numbers(a, N) {
     // If no such triplet is found, return an empty array
     return [];
   }
-  
+
+  find3Numbers([1,2,3,4], 5)

@@ -7,14 +7,14 @@
 // O(1) Space Because we storing varibles
 
 function twoNumberSum(array, targetSum) {
-    for (let i = 0; i < array.length - 1; i++){
+    for (let i = 0; i < array.length - 1; i++) {
         const firstNum = array[i]
-        // console.log(firstNum)
+        console.log(firstNum)
         for ( let j = 0; j < array.length; j++){
             const secondNum = array[j]
             // console.log(secondNum)
             if (firstNum + secondNum === targetSum) {
-                console.log([firstNum, secondNum])
+                // console.log([firstNum, secondNum])
                 return [firstNum, secondNum]
             }
         }
@@ -22,10 +22,10 @@ function twoNumberSum(array, targetSum) {
     return []
 }
 
-twoNumberSum([3, 5, -4, 8, 11, 1, -1, 6], 10)
-twoNumberSum([1, 2, 3, 4, 5, 6, 7, 8, 9], 17)
-twoNumberSum([1, 2, 3, 4, 5, 6, 7, 8, 9, 15], 18)
-twoNumberSum([-7, -5, -3, -1, 0, 1, 3, 5, 7], -5)
+console.log(twoNumberSum([2,7,11,15], 9))
+// twoNumberSum([1, 2, 3, 4, 5, 6, 7, 8, 9], 17)
+// twoNumberSum([1, 2, 3, 4, 5, 6, 7, 8, 9, 15], 18)
+// twoNumberSum([-7, -5, -3, -1, 0, 1, 3, 5, 7], -5)
 
 
 
@@ -53,11 +53,11 @@ function twoNumberSum2(array, targetSum) {
 }
 
 twoNumberSum2([3, 5, -4, 8, 11, 1, -1, 6], 10)
-twoNumberSum2([4, 6, 1], 50)
-twoNumberSum2([4, 6, 1], 50)
-twoNumberSum2([4, 6, 1], 50)
-twoNumberSum2([4, 6, 1], 50)
-twoNumberSum2([4, 6, 1], 50)
+// twoNumberSum2([4, 6, 1], 50)
+// twoNumberSum2([4, 6, 1], 50)
+// twoNumberSum2([4, 6, 1], 50)
+// twoNumberSum2([4, 6, 1], 50)
+// twoNumberSum2([4, 6, 1], 50)
 
 
 
